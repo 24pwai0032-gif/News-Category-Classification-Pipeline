@@ -170,17 +170,11 @@ $757,882/year cost reduction
 
 ---
 
-## 🔬 Technical Architecture
+## 🔬 Technical Architecture & Pipeline Components
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100"><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,25,30&height=3" width="80%"/>
-
-</div>
-
-### 🛠️ Pipeline Components
 
 ```mermaid
 graph LR
@@ -192,6 +186,7 @@ graph LR
     F --> G[🚀 Deployment]
     
 ```
+</div>
 
 ### 1️⃣ Data Preprocessing Pipeline
 

@@ -1,0 +1,64 @@
+# ================================================================
+# NEWS CLASSIFICATION PIPELINE - REQUIREMENTS
+# Project: News Category Classification using NLP & Machine Learning
+# Author: Syed Hassan Tayyab
+# Python Version: 3.8+
+# ================================================================
+
+# -------------------- Core Data Science --------------------
+pandas>=1.3.0,<3.0.0          # Data manipulation and analysis
+numpy>=1.21.0,<2.0.0          # Numerical computing
+scipy>=1.7.0,<2.0.0           # Scientific computing (sparse matrices)
+
+# -------------------- Machine Learning --------------------
+scikit-learn>=1.0.0,<2.0.0    # ML algorithms (NB, LR, SVM)
+joblib>=1.0.0,<2.0.0          # Model serialization
+
+# -------------------- Natural Language Processing --------------------
+nltk>=3.6.0,<4.0.0            # Tokenization, stopwords, stemming, lemmatization
+gensim>=4.0.0,<5.0.0          # Word2Vec embeddings
+
+# -------------------- Visualization --------------------
+matplotlib>=3.4.0,<4.0.0      # Basic plotting
+seaborn>=0.11.0,<1.0.0        # Statistical visualizations
+wordcloud>=1.8.0,<2.0.0       # Word cloud generation
+
+# -------------------- Jupyter Environment --------------------
+jupyter>=1.0.0                # Jupyter metapackage
+notebook>=6.4.0,<7.0.0        # Jupyter Notebook interface
+ipykernel>=6.0.0              # IPython kernel for Jupyter
+ipywidgets>=7.6.0             # Interactive widgets
+
+# -------------------- Additional Utilities --------------------
+tqdm>=4.62.0                  # Progress bars
+requests>=2.26.0              # HTTP library (if needed for data download)
+
+# -------------------- Optional: For Production Deployment --------------------
+# Uncomment if deploying as API
+# flask>=2.0.0                # Web framework
+# flask-cors>=3.0.0           # CORS handling
+# gunicorn>=20.1.0            # WSGI server
+
+# -------------------- Development Tools (Optional) --------------------
+# Uncomment for development
+# black>=21.0                 # Code formatter
+# flake8>=3.9.0               # Linter
+# pytest>=6.2.0               # Testing framework
+
+# ================================================================
+# INSTALLATION INSTRUCTIONS:
+# 
+# Standard Installation:
+#   pip install -r requirements.txt
+#
+# Google Colab (Already has most packages):
+#   !pip install -q nltk gensim wordcloud
+#
+# Conda Environment:
+#   conda create -n news_classification python=3.8
+#   conda activate news_classification
+#   pip install -r requirements.txt
+#
+# NLTK Data Download (Run once after installation):
+#   python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('wordnet'); nltk.download('averaged_perceptron_tagger')"
+# ================================================================

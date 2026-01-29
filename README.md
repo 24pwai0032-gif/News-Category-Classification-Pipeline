@@ -191,15 +191,6 @@ graph LR
     E --> F[✅ Evaluation]
     F --> G[🚀 Deployment]
     
-  style A fill:#f5f5f5,stroke:#424242
-style B fill:#eeeeee,stroke:#424242
-style C fill:#eaeaea,stroke:#424242
-style D fill:#e0e0e0,stroke:#424242
-style E fill:#f0f0f0,stroke:#424242
-style F fill:#ededed,stroke:#424242
-style G fill:#e6e6e6,stroke:#424242
-
-
 ```
 
 ### 1️⃣ Data Preprocessing Pipeline

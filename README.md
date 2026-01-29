@@ -191,13 +191,14 @@ graph LR
     E --> F[✅ Evaluation]
     F --> G[🚀 Deployment]
     
-  style A fill:#e57373,stroke:#333,stroke-width:1px
-style B fill:#4db6ac,stroke:#333,stroke-width:1px
-style C fill:#64b5f6,stroke:#333,stroke-width:1px
-style D fill:#81c784,stroke:#333,stroke-width:1px
-style E fill:#ffd54f,stroke:#333,stroke-width:1px
-style F fill:#4fc3f7,stroke:#333,stroke-width:1px
-style G fill:#66bb6a,stroke:#333,stroke-width:1px
+  style A fill:#f5f5f5,stroke:#424242
+style B fill:#eeeeee,stroke:#424242
+style C fill:#eaeaea,stroke:#424242
+style D fill:#e0e0e0,stroke:#424242
+style E fill:#f0f0f0,stroke:#424242
+style F fill:#ededed,stroke:#424242
+style G fill:#e6e6e6,stroke:#424242
+
 
 ```
 

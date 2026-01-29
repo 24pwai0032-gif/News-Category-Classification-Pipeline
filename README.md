@@ -191,13 +191,14 @@ graph LR
     E --> F[✅ Evaluation]
     F --> G[🚀 Deployment]
     
-    style A fill:#ff6b6b
-    style B fill:#4ecdc4
-    style C fill:#45b7d1
-    style D fill:#96ceb4
-    style E fill:#feca57
-    style F fill:#48dbfb
-    style G fill:#1dd1a1
+  style A fill:#e57373,stroke:#333,stroke-width:1px
+style B fill:#4db6ac,stroke:#333,stroke-width:1px
+style C fill:#64b5f6,stroke:#333,stroke-width:1px
+style D fill:#81c784,stroke:#333,stroke-width:1px
+style E fill:#ffd54f,stroke:#333,stroke-width:1px
+style F fill:#4fc3f7,stroke:#333,stroke-width:1px
+style G fill:#66bb6a,stroke:#333,stroke-width:1px
+
 ```
 
 ### 1️⃣ Data Preprocessing Pipeline
@@ -812,28 +813,6 @@ news_classification_pipeline/
 
 ---
 
-## 📊 Grading Rubric
-
-<div align="center">
-
-### 🏆 Score: 110/100 (Exceeded Expectations!)
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,25,30&height=3" width="80%"/>
-
-</div>
-
-| Component | Points | Status | Achievement |
-|:---|:---:|:---:|:---|
-| 📊 Data Exploration & Visualization | 10 | ✅ | Multiple visualizations, class distribution, text analysis |
-| 🧹 Pre-processing Pipeline | 20 | ✅ | Complete pipeline with stemming & lemmatization |
-| 🔧 Feature Engineering | 20 | ✅ | BoW, TF-IDF, Bigrams, Word2Vec + Markov Chain ⭐ |
-| 🤖 Modelling & Metrics | 30 | ✅ | 9 models, comprehensive evaluation, confusion matrix |
-| 📈 Analysis & Discussion | 10 | ✅ | Generative vs discriminative, sparse vs dense, business impact |
-| 💻 Code Quality & Reproducibility | 10 | ✅ | Well-commented, organized, reproducible with seeds |
-| 📝 Documentation (README) | 10 | ✅ | Comprehensive, animated, professional |
-| **🎁 BONUS** | **+10** | ✅ | **Markov Chain, Business Analysis, Extra Models** |
-| **✨ TOTAL** | **110/100** | 🏆 | **PERFECT SCORE + BONUS** |
-
 ---
 
 ## 📞 Connect With Me
@@ -870,15 +849,14 @@ news_classification_pipeline/
 
 <div align="center">
 
-**Dataset:** AG's News Topic Classification Dataset  
-**Source:** Zhang, X., Zhao, J., & LeCun, Y. (2015)  
+**Dataset:** AG's News Topic Classification Dataset   
 *Character-level Convolutional Networks for Text Classification*
 
 <br/>
 
 **Project:** News Category Classification Pipeline  
 **Author:** Syed Hassan Tayyab  
-**Year:** 2025
+**Year:** 2026
 
 <br/>
 
@@ -894,7 +872,7 @@ news_classification_pipeline/
 
 <div align="center">
 
-**Made with ❤️ and 🧠 by Syed Hassan Tayyab**
+**Made with ❤️ by Syed Hassan Tayyab**
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="600">
 

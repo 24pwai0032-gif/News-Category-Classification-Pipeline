@@ -670,20 +670,20 @@ jupyter notebook
 ## 📁 Project Structure
 
 ```
-news_classification_pipeline/
+News-Category-Classification-Pipeline/
 │
-├── 📓 news_classification_pipeline.ipynb  # Complete ML pipeline
-├── 📋 README.md                           # Project documentation
-├── 📦 requirements.txt                    # Python dependencies
-│
-├── 📊 train.csv                           # Training data (120K articles)
-├── 🧪 test.csv                            # Test data (7.6K articles)
-│
-└── 📂 outputs/                            # Generated artifacts
-    ├── 📈 model_results.csv               # Performance metrics
-    ├── 🤖 best_model.pkl                  # Trained model (LR + TF-IDF)
-    ├── 🔤 tfidf_vectorizer.pkl            # Feature vectorizer
-    └── 🧹 preprocessor.pkl                # Text preprocessor
+├── 📓 news_classification_pipeline.ipynb    ⭐ Main Implementation
+├── 📖 README.md                             ⭐ Animated Documentation
+├── 📦 requirements.txt                      ⭐ Full Dependencies
+├── 🛠️ SETUP.md                              ⭐ Installation Guid
+├── 📁 PROJECT_STRUCTURE.md                  ⭐ Organization Guide
+├── 🤝 CONTRIBUTING.md                       ⭐ Collaboration Rules
+├── 📝 CHANGELOG.md                          ⭐ Version History
+├── 🐙 GITHUB_SETUP.md                       ⭐ Repository Setup
+├── ✅ UPLOAD_CHECKLIST.md                   ⭐ Simple Upload Guide
+├── 🙈 .gitignore                            ⭐ Repository Hygiene
+└── 📜 LICENSE (create on GitHub)            ⭐ Legal Protection
+
 ```
 
 ---

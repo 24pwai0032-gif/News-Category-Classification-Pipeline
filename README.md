@@ -672,15 +672,10 @@ jupyter notebook
 ```
 News-Category-Classification-Pipeline/
 │
+├── 📁 data
 ├── 📓 news_classification_pipeline.ipynb    ⭐ Main Implementation
 ├── 📖 README.md                             ⭐ Animated Documentation
 ├── 📦 requirements.txt                      ⭐ Full Dependencies
-├── 🛠️ SETUP.md                              ⭐ Installation Guid
-├── 📁 PROJECT_STRUCTURE.md                  ⭐ Organization Guide
-├── 🤝 CONTRIBUTING.md                       ⭐ Collaboration Rules
-├── 📝 CHANGELOG.md                          ⭐ Version History
-├── 🐙 GITHUB_SETUP.md                       ⭐ Repository Setup
-├── ✅ UPLOAD_CHECKLIST.md                   ⭐ Simple Upload Guide
 ├── 🙈 .gitignore                            ⭐ Repository Hygiene
 └── 📜 LICENSE (create on GitHub)            ⭐ Legal Protection
 
